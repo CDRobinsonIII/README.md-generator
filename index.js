@@ -1,6 +1,12 @@
 // Load the inquirer module. 
 const inquirer = require('inquirer');
 
+// Load the fs module.
+const fs = require('fs');
+
+// Load the generate markdown module from the utils folder. 
+const generateMarkdown = require('./utils/generateMarkdown');
+
 // Array of questions for user. Used to generate the README.md.
 const questions = [
 
@@ -85,15 +91,20 @@ const questions = [
 ]
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(answers) {
+    const readmeMarkup = generateMarkdown(answers);
+    fs.appendFile('README.md', `${readmeMarkup}`, (err) => 
+        err ? console.error(err) : console.log('README.md successfully created!'));
+
 }
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
     .then((response) => {
-        // writeToFile(response)
-        console.log(response)
+        console.log(response);
+        writeToFile(response)
+
     });
 }
 
