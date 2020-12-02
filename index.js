@@ -12,12 +12,6 @@ const questions = [
 
     {
         type: 'input',
-        message: 'What is the title of your project?',
-        name: 'title',
-    },
-
-    {
-        type: 'input',
         message: 'What is your GitHub user name?',
         name: 'username',
     },
@@ -26,6 +20,12 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
+    },
+
+    {
+        type: 'input',
+        message: 'What is the title of your project?',
+        name: 'title',
     },
 
     {
@@ -56,6 +56,18 @@ const questions = [
         type: 'input',
         message: 'Please provide instructions on how to test your application.',
         name: 'testInstructions',
+    },
+
+    {
+        type: 'list',
+        message: 'Which license will your project be using',
+        name: 'license',
+        choices: [
+            'MIT',
+            'Apache 2.0',
+            'GNU GPLv3',
+            'none'
+        ]
     },
 
     {
