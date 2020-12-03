@@ -7,11 +7,17 @@ function generateMarkdown(answers) {
 ${answers.description}
 
 ## Table of Contents
+* [Technologies](#technologies)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+
+## Technologies
+<ul>
+   ${answers.technologies.map(technology => `<li>${technology}</li>`).join(" ")}
+</ul>
 
 ## Installation
 ${answers.installInstructions}
