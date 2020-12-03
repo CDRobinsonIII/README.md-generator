@@ -64,8 +64,8 @@ const questions = [
         name: 'license',
         choices: [
             'MIT',
-            'Apache 2.0',
-            'GNU GPLv3',
+            'Apache_2.0',
+            'GNU_GPLv3',
             'none'
         ]
     },
