@@ -78,22 +78,39 @@ const questions = [
             {
                 name: 'HTML',
             },
+
             {
                 name: 'CSS',
             },
+
             {
                 name: 'JavaScript',
             },
+
             {
                 name: 'jQuery',
             },
+
             {
                 name: 'Node JS',
             },
 
             {
+                name: 'React JS',
+            },
+
+            {
                 name: 'DOM Manipulation',
             },
+
+            {
+                name: 'MySQL',
+            },
+
+            {
+                name: 'MongoDB',
+            },
+
             {
                 name: 'Bootstrap',
             },

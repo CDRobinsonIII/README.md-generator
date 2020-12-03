@@ -2,32 +2,34 @@
 ![GitHub License](https://img.shields.io/badge/License-MIT-blue) 
 
 ## Description 
-adsf
+asdf
 
 ## Table of Contents
-* [Technologies](#technologies)
+* [Technologies Used](#technologies-used)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
+* [Questions](#questions)
 
-## Technologies
+
+## Technologies Used
 <ul>
-   <li>HTML</li> <li>CSS</li> <li>JavaScript</li> <li>jQuery</li> <li>Node JS</li> <li>DOM Manipulation</li> <li>Bootstrap</li>
+   <li>HTML</li> <li>CSS</li> <li>JavaScript</li> <li>jQuery</li> <li>Node JS</li> <li>MongoDB</li>
 </ul>
 
 ## Installation
 asdf
 
 ## Usage 
-asdf
+adsf
 
 ## License
 This project is licensed under the MIT license.
 
 ## Contributing
-asdf
+adsf
 
 ## Tests
 asdf
