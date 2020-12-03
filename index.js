@@ -30,37 +30,37 @@ const questions = [
 
     {
         type: 'input',
-        message: 'Please provide a description for your application',
+        message: 'Please provide a description for your application: ',
         name: 'description',
     },
 
     {
         type: 'input',
-        message: 'Please provide the installation instructions for your application',
+        message: 'Please provide the installation instructions for your application: ',
         name: 'installInstructions',
     },
 
     {
         type: 'input',
-        message: 'Please provide instructions and examples on how to use your application.',
+        message: 'Please provide instructions and examples on how to use your application: ',
         name: 'useInstructions',
     },
 
     {
         type: 'input',
-        message: 'Please provide guidelines for other developers to contribute to your application.',
+        message: 'Please provide guidelines for other developers to contribute to your application: ',
         name: 'contributeGuidelines',
     },
 
     {
         type: 'input',
-        message: 'Please provide instructions on how to test your application.',
+        message: 'Please provide instructions on how to test your application: ',
         name: 'testInstructions',
     },
 
     {
         type: 'list',
-        message: 'Which license will your project be using',
+        message: 'Which license will your project be using: ',
         name: 'license',
         choices: [
             'MIT',
@@ -72,7 +72,7 @@ const questions = [
 
     {
         type: 'checkbox',
-        message: 'Pelase select the technologies used to create your application: ',
+        message: 'Please select the technologies you used to create your application: ',
         name: 'technologies',
         choices: [
             {
@@ -123,7 +123,7 @@ const questions = [
 function writeToFile(answers) {
     const readmeMarkup = generateMarkdown(answers);
     fs.appendFile('README.md', `${readmeMarkup}`, (err) => 
-        err ? console.error(err) : console.log('README.md successfully created!'));
+        err ? console.error(err) : console.log('Your README.md file was successfully created!'));
 
 }
 
