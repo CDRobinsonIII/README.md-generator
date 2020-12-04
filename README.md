@@ -25,8 +25,7 @@ To install the README.md generator application you will have to fork the reposit
 ## Usage 
 To run the README.md generator application after you install the required modules, you will have to enter the following command line: node index.js. Then the user will be prompted with 10 different questions about their repository. <ol> <li> What is your GitHub user name? </li> <li> What is your email address? </li> <li> What is the title of your project? </li> <li> Please provide a description for your application: </li> <li> Please provide the installation instructions for your application: </li> <li> Please provide instructions and examples on how to use your application: </li> <li> Please provide guidelines for other developers to contribute to your application: </li> <li> Please provide instructions on how to test your application: </li> <li> Which license will your project be using? </li> <li> Please select the technologies you used to create your application: </li> </ol> After the prompts are answered, the README.md file will be generated. 
 
-Here is a walkthrough video of the README.md generator application:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-Exk0FZ0Ljg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Here is a walkthrough video of the README.md generator application: https://youtu.be/-Exk0FZ0Ljg
 
 ## License
 This project is licensed under the MIT license.
