@@ -12,7 +12,7 @@ The mission of this project was to create a README.md generator application usin
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-
+* [Screenshots of README.md Generator in Use](#Screenshots-of-README.md-Generator-in-Use)
 
 ## Technologies Used
 <ul>
@@ -40,3 +40,10 @@ There are no built-in tests for the README.md generator. The best way to test th
 If you have any questions about this README generator application or to report any issues with the application please email me at charlesdalerobinson@gmail.com.
 Please visit my github page to review my other repositories: [CDRobinsonIII](https://github.com/CDRobinsonIII)
 
+## Screenshots of README.md Generator in Use
+
+![Here is a screenshot of CLI prompting the user for answers about their application.](./assets/images/screenShot01.jpg)
+
+![Here is a screenshot of generated README.md file.](./assets/images/screenShot02.jpg)
+
+![Here is a screenshot of README.md file in preview mode.](./assets/images/screenShot03.jpg)
